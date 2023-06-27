@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max-min-element-sum-in-array</title>
+  </head>
+  <body>
+    <script>
+      let size = prompt("Enter the size of the array:");
+      let arr = [];
+      for (let i = 0; i < size; i++) {
+        arr.push(prompt("Enter the element"));
+      }
+      console.log(Number(arr[0]) + Number(arr[size - 1]));
+    </script>
+  </body>
+</html>
